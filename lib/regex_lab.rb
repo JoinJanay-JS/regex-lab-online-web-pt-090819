@@ -25,7 +25,11 @@ first_letter = text.scan(/\w+/)[0]
 end
 
 def valid_phone_number?(phone)
-
+if text.match(/^[A-Z]/) && text.match(/[\.]$/)
+    true
+  else 
+    false
+  end
 end
 
 def starts_with_a_vowel?(word)
