@@ -32,5 +32,8 @@ if phone.match(/([0-9] ?){10}/) || phone.match(/(\([0-9]{3}\)([0-9]{3}-[0-9]{4})
 end
 
 def starts_with_a_vowel?(word)
-  
+  if text.match(/^[A-Z]/) && text.match(/[\.]$/)
+    true
+  else 
+    false
 end
