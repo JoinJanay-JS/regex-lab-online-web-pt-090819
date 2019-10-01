@@ -34,6 +34,7 @@ end
 
 def starts_with_a_vowel?(word)
   if text.match(/^[A-Z]/) && text.match(/[\.]$/)
+    word.match(/\A[aeiouAEIOU]/) != nil
     true
   else 
     false
