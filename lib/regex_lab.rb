@@ -19,11 +19,7 @@ def valid_phone_number?(phone)
 end
 
 def starts_with_a_vowel?(word)
-  if word.match(/^[AEIOU]|^[aeiou]/)
-    true
-  else
-    false
-  end
+  
 end
 #word_1 = "afoot"
 #word_2 = "chandoo"
